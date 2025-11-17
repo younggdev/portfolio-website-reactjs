@@ -22,10 +22,10 @@ function HomePage() {
       <div className="flex justify-between max-md:flex-col items-center">
         <div className="max-md:mb-20 max-w-lg">
           <div className="flex gap-5 text-4xl max-lg:text-2xl font-semibold items-center mb-5">
-            <h1>Hi, I'M</h1>
+            <h1 className="max-sm:text-lg">Hi, I'M</h1>
             <RotatingText
               texts={["Ahmad Maulana", "Web Developer", "Freelancer", "Cool!"]}
-              mainClassName="px-2 md:px-3 bg-primary text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg inline-flex transition-all"
+              mainClassName="px-2 md:px-3 bg-primary text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg inline-flex transition-all max-sm:text-lg"
               staggerFrom={"last"}
               initial={{ y: "100%" }}
               animate={{ y: 0 }}

@@ -127,7 +127,7 @@ function Navbar() {
                   exit="exit"
                   className="fixed inset-0 bg-bg flex flex-col items-start justify-between mt-18 py-10 pl-10"
                 >
-                  <div className="flex flex-col items-start gap-10">
+                  <div className="flex flex-col items-start gap-10 max-sm:gap-8">
                     {menuItems.map((item, i) => (
                       <motion.div
                         key={i}
@@ -137,7 +137,7 @@ function Navbar() {
                         <NavLink
                           to={item.to}
                           className={({ isActive }) =>
-                            `text-4xl font-medium transition-all duration-300 hover:text-primary ${
+                            `text-4xl max-sm:text-2xl font-medium transition-all duration-300 hover:text-primary ${
                               isActive ? "text-primary" : "text-gray"
                             }`
                           }

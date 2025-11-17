@@ -4,7 +4,7 @@ import SocialCard from "../components/ContactComponent/SocialCard";
 function ContactsPage() {
   return (
     <>
-      <h1 className="text-3xl font-semibold mb-3">
+      <h1 className="text-3xl max-sm:text-xl font-semibold mb-3">
         <span className="text-primary">/</span>contacts
       </h1>
       <p className="mb-10">

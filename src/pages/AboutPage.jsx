@@ -15,7 +15,7 @@ function AboutPage() {
 
   return (
     <>
-      <h1 className="text-3xl font-semibold mb-3">
+      <h1 className="text-3xl max-sm:text-xl font-semibold mb-3">
         <span className="text-primary">/</span>about-me
       </h1>
       <p className="mb-10">Who I'm?</p>
@@ -50,7 +50,7 @@ function AboutPage() {
         <TiltCard />
       </div>
 
-      <h3 className="text-2xl">
+      <h3 className="text-2xl max-sm:text-lg">
         <i className="ri-hashtag text-primary"></i>
         experiences
       </h3>
@@ -59,7 +59,7 @@ function AboutPage() {
         <ExperienceCard item={exp} key={exp.id} />
       ))}
 
-      <h3 className="text-2xl">
+      <h3 className="text-2xl max-sm:text-lg mt-10">
         <i className="ri-hashtag text-primary"></i>
         achievements
       </h3>

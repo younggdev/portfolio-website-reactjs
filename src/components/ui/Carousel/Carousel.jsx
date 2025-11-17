@@ -39,7 +39,7 @@ export default function Carousel() {
           disableOnInteraction: false,
         }}
         spaceBetween={20}
-        slidesPerView={3}
+        slidesPerView={2}
         breakpoints={{
           0: {
             slidesPerView: 1, // di layar kecil (mobile)
