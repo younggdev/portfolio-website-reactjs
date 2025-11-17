@@ -92,7 +92,7 @@ function App() {
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
             >
-              <div className="mb-20 px-20 max-md:px-10">
+              <div className="mb-20 max-sm:mb-8 px-20 max-md:px-10">
                 <Routes location={location}>
                   <Route path="/" element={<HomePage />} />
                   <Route path="/projects" element={<Projects />} />

@@ -10,7 +10,7 @@ function Footer() {
         </div>
         <div>
           <h1 className="font-semibold mb-3">Media</h1>
-          <div className="flex gap-3 text-gray text-2xl max-sm:text-xl">
+          <div className="flex gap-3 max-sm:gap-2 text-gray text-2xl max-sm:text-xl">
             <a
               href="https://www.instagram.com/madt._cdr/"
               target="_blank"
