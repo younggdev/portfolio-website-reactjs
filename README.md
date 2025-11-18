@@ -1,16 +1,74 @@
-# React + Vite
+# Portfolio Website — React + Supabase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status](https://img.shields.io/badge/status-active-green)
+![Framework](https://img.shields.io/badge/React-Vite-blue)
+![Database](https://img.shields.io/badge/Backend-Supabase-black)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
 
-Currently, two official plugins are available:
+Website Portofolio pribadi untuk menampilkan project, keahlian, dan pengalaman profesional. Dibangun menggunakan **React (Vite)** dan **Supabase** sebagai database & storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+➡️ **Demo Online:** https://maddlana.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Teknologi
+
+**Frontend**
+
+- React + Vite
+- Tailwind CSS
+- React Router
+- Framer Motion
+- Remix Icon
+
+**Backend**
+
+- Supabase — Fetch data project (READ only)
+
+---
+
+## 📦 Instalasi & Setup Lokal
+
+1️⃣ Clone repository:
+
+```bash
+git clone https://github.com/younggdev/portfolio-website-reactjs.git
+cd portfolio-website-reactjs
+```
+
+2️⃣ Install dependencies:
+
+```
+npm install
+```
+
+3️⃣ Setup environment Supabase
+
+Buat file **.env**:
+
+```
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+4️⃣ Jalankan development server
+
+```
+npm run dev
+```
+
+## 🌍 Deployment
+
+Proyek ini dideploy menggunakan **Vercel**.
+
+---
+
+## 📝 Credits
+
+Desain UI terinspirasi dari karya **Elias**  
+Lisensi desain asli: MIT License © 2025 Elias  
+Repository sumber: https://github.com/EliasDevis/EliasDevis.github.io
