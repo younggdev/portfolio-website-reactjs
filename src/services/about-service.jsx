@@ -4,8 +4,9 @@ export async function getExperiences() {
   const { data, error } = await supabase.from("experiences").select("*");
   if (error) {
     console.log("error fetchin:g ", error);
+     return [];
   } else {
-    return data;
+    return data || [];
   }
 }
 
